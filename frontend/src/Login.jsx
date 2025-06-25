@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { TextField, Button, Container, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import './login.css';
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -28,7 +29,7 @@ const Login = () => {
   
       alert("Login successful!");
       // Redirect to dashboard
-      navigate("/dashboard");
+      navigate("/admin");
     } catch (error) {
       alert(error.response?.data?.message || "Invalid credentials");
     }

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container, Typography, Button } from "@mui/material";
 
-const Dashboard = () => {
+const Admin = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState("");
   const [userRole, setRole] = useState("");
@@ -50,4 +50,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Admin;
