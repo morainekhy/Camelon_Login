@@ -1,0 +1,48 @@
+/* login.css */
+
+/* Apply to the whole page */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Center and style the login container */
+.MuiContainer-root {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Optional: Style the heading */
+.MuiTypography-root {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Style the inputs */
+.MuiTextField-root {
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+}
+
+/* Style the button */
+.MuiButton-root {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-transform: none;
+  background-color: #4f46e5;
+}
+
+.MuiButton-root:hover {
+  background-color: #3730a3;
+}
